@@ -1,0 +1,53 @@
+*
+{
+    margin:0;
+    padding: 0;
+    background-image:url( fantasy-landscape-with-full-moon-dark-forest-illustration-children_867442-3697.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    color: white;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator
+
+{
+display: grid;
+grid-template-columns: repeat(4,70px);
+border-radius: 10px;
+border: 2px solid whitesmoke;
+padding: 25px;
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(0,0,0,16);
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: end;
+    padding-right: 10px
+    ;
+}
+button{
+    height: 48px;
+    width: 48px;
+    border-radius:50%;
+    border: 0;
+    box-shadow: inset 5px 5px 12px #ffffff 5px 5px 12px rgba(0,0,0,16);
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 15px;
+    
+}
+.equal{
+    width: 116px;
+    border: 30px;
+}
